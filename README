@@ -3,4 +3,11 @@ AM : CSD4676
 
 Για το build του προγραμματος χρησιμοποιω την εντολη: gcc main.c pss.h pss.c .\lists\info_list.h .\lists\info_list.c .\lists\subinfo_list.h .\lists\subinfo_list.c .\lists\subscription_list.h .\lists\subscription_list.c -o run.exe
 Και για την εκτελέση του: ./run.exe <MG> <Test_File.txt>
-π.χ. .\run.exe 64 .\testfiles\simple_insert.txt 
+π.χ. .\run.exe 64 .\testfiles\simple_insert.txt
+*Ικανό να τρέξει σε c90*
+
+
+To build the program I use command: gcc main.c pss.h pss.c .\lists\info_list.h .\lists\info_list.c .\lists\subinfo_list.h .\lists\subinfo_list.c .\lists\subscription_list.h .\lists\subscription_list.c -o run.exe
+And for the execution: ./run.exe <MG> <Test_File.txt>
+e.g. .\run.exe 64 .\testfiles\simple_insert.txt
+*Able to run on c90*
